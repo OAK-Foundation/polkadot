@@ -383,8 +383,8 @@ fn westend_staging_testnet_config_genesis(wasm_binary: &[u8]) -> westend::Genesi
 
 	// subkey inspect "$SECRET"
 	let endowed_accounts = vec![
-		// 5DaVh5WRfazkGaKhx1jUu6hjz7EmRe4dtW6PKeVLim84KLe8
-		hex!["42f4a4b3e0a89c835ee696205caa90dd85c8ea1d7364b646328ee919a6b2fc1e"].into(),
+		// 5FcRiNA6zwWHczduKNKygrRNtobRG68y8WUmVTCWPtZaRHLb
+		hex!["9ce635e8e1ff0edb638b4fac0e5a0bb375d818b645ed995a0bb92d361c6c3075"].into(),
 	];
 	// SECRET='...' ./scripts/prepare-test-net.sh 4
 	let initial_authorities: Vec<(
